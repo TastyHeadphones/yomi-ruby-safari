@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01AC4AD4B06E35A21344AD21 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 2A586E172D50161F008CD329 /* popup.css */; };
+		01F96FEFDA25D3E440C7B54A /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = A068EEC18D58B874B8E52F79 /* background.js */; };
+		0BB1103B17C5EC4C412EF78D /* base.dat.gz in Resources */ = {isa = PBXBuildFile; fileRef = 0906C658ED6DCC7302CBC50F /* base.dat.gz */; };
+		0C439B24DB5C5C6C84CE10BF /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 7F1546380CF607BE382D473D /* content.js */; };
+		1840B1DABBACF99FED2CFC36 /* cc.dat.gz in Resources */ = {isa = PBXBuildFile; fileRef = 15B7565E62513AF49C8E017E /* cc.dat.gz */; };
+		2713674BE91772626FCED75C /* check.dat.gz in Resources */ = {isa = PBXBuildFile; fileRef = 104B4E7DCEBF5869A8A5FA8A /* check.dat.gz */; };
+		2C5CB7356ED61A2BE903EC18 /* unk_compat.dat.gz in Resources */ = {isa = PBXBuildFile; fileRef = B10DD3AC266DCDE41572C799 /* unk_compat.dat.gz */; };
+		31B832DB0F12C2CFC976ABF9 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D75F580DED9047D23D34905 /* SafariWebExtensionHandler.swift */; };
+		36417ECBEDB658EDBC734E25 /* local-dict.js in Resources */ = {isa = PBXBuildFile; fileRef = 6BA48019733DC82EBE3753A5 /* local-dict.js */; };
+		39293EDB1BCB394CB47D9DAE /* unk.dat.gz in Resources */ = {isa = PBXBuildFile; fileRef = D969D901FD475ACA043FD686 /* unk.dat.gz */; };
+		4E620891D8415F4085543502 /* tid_map.dat.gz in Resources */ = {isa = PBXBuildFile; fileRef = 9276CF3E163730CC558CA544 /* tid_map.dat.gz */; };
+		5CA9BC677A1CC99E7EA97D52 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCB69A0E9AD4ADA40548FB9 /* ContentView.swift */; };
+		7094EA7D4EBF78109C65E61C /* tid_pos.dat.gz in Resources */ = {isa = PBXBuildFile; fileRef = CDB0DC2FBD700E21BCDA61E8 /* tid_pos.dat.gz */; };
+		77635BC5C3658B7B8506E35E /* YomiRubySafariExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 371BC7F9AE57130058554C15 /* YomiRubySafariExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9CBB8FD6139DFE83B7337E74 /* unk_map.dat.gz in Resources */ = {isa = PBXBuildFile; fileRef = 51E2A5F3D26017AD4D7F2751 /* unk_map.dat.gz */; };
+		A38D1AB2FB235EC1FD1600AD /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 3603EE661E85F7082C00154E /* popup.js */; };
+		A7C9E0617428B3202FF5E572 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = A2090EC41F175FC3CC38798E /* manifest.json */; };
+		BEAC6C11BF9433E6F6696A20 /* YomiRubySafariApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CA972921B8F1FEDE705EE9 /* YomiRubySafariApp.swift */; };
+		CA9C0D76F2C3E5EC8D749155 /* unk_pos.dat.gz in Resources */ = {isa = PBXBuildFile; fileRef = AA3CFA14926029505EC85F47 /* unk_pos.dat.gz */; };
+		D182A1C8327827668CE4BC5D /* kuromoji.js in Resources */ = {isa = PBXBuildFile; fileRef = 7DAEDD8B735CFFD2E012D3A6 /* kuromoji.js */; };
+		D19CEE51E922A134BECAA245 /* local-dict.json in Resources */ = {isa = PBXBuildFile; fileRef = A1B61FC52435126FE34C6A07 /* local-dict.json */; };
+		D721E023DD7798BFCCA64A91 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = E0C4BB7BB1CED246D61FB3B2 /* popup.html */; };
+		DEABC44F1B40120FF7188E09 /* unk_invoke.dat.gz in Resources */ = {isa = PBXBuildFile; fileRef = E8B1216B2C50D131D157EDCF /* unk_invoke.dat.gz */; };
+		EF5976A6B08CF725EDA476D8 /* unk_char.dat.gz in Resources */ = {isa = PBXBuildFile; fileRef = A08423658A91F2EA594FFAE6 /* unk_char.dat.gz */; };
+		F04A0E59070A4B8706A7502A /* tid.dat.gz in Resources */ = {isa = PBXBuildFile; fileRef = 6C7ABC2793BB39B05C76AC46 /* tid.dat.gz */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0407C9C0AB849C671961430 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0A8F509F2B130BDCB6C7D6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 528DB3617DA09D7822ECD773;
+			remoteInfo = YomiRubySafariExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8C8F6016C845B4578AEB408F /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				77635BC5C3658B7B8506E35E /* YomiRubySafariExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0906C658ED6DCC7302CBC50F /* base.dat.gz */ = {isa = PBXFileReference; lastKnownFileType = archive.gzip; path = base.dat.gz; sourceTree = "<group>"; };
+		104B4E7DCEBF5869A8A5FA8A /* check.dat.gz */ = {isa = PBXFileReference; lastKnownFileType = archive.gzip; path = check.dat.gz; sourceTree = "<group>"; };
+		15B7565E62513AF49C8E017E /* cc.dat.gz */ = {isa = PBXFileReference; lastKnownFileType = archive.gzip; path = cc.dat.gz; sourceTree = "<group>"; };
+		2A586E172D50161F008CD329 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		3603EE661E85F7082C00154E /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		371BC7F9AE57130058554C15 /* YomiRubySafariExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = YomiRubySafariExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		383D05A3F6DD7AFBAC93F40F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		51E2A5F3D26017AD4D7F2751 /* unk_map.dat.gz */ = {isa = PBXFileReference; lastKnownFileType = archive.gzip; path = unk_map.dat.gz; sourceTree = "<group>"; };
+		6BA48019733DC82EBE3753A5 /* local-dict.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "local-dict.js"; sourceTree = "<group>"; };
+		6C7ABC2793BB39B05C76AC46 /* tid.dat.gz */ = {isa = PBXFileReference; lastKnownFileType = archive.gzip; path = tid.dat.gz; sourceTree = "<group>"; };
+		6D75F580DED9047D23D34905 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		7BCB69A0E9AD4ADA40548FB9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7DAEDD8B735CFFD2E012D3A6 /* kuromoji.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = kuromoji.js; sourceTree = "<group>"; };
+		7F1546380CF607BE382D473D /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		80CA972921B8F1FEDE705EE9 /* YomiRubySafariApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YomiRubySafariApp.swift; sourceTree = "<group>"; };
+		9276CF3E163730CC558CA544 /* tid_map.dat.gz */ = {isa = PBXFileReference; lastKnownFileType = archive.gzip; path = tid_map.dat.gz; sourceTree = "<group>"; };
+		A068EEC18D58B874B8E52F79 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		A08423658A91F2EA594FFAE6 /* unk_char.dat.gz */ = {isa = PBXFileReference; lastKnownFileType = archive.gzip; path = unk_char.dat.gz; sourceTree = "<group>"; };
+		A1B61FC52435126FE34C6A07 /* local-dict.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "local-dict.json"; sourceTree = "<group>"; };
+		A2090EC41F175FC3CC38798E /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		AA3CFA14926029505EC85F47 /* unk_pos.dat.gz */ = {isa = PBXFileReference; lastKnownFileType = archive.gzip; path = unk_pos.dat.gz; sourceTree = "<group>"; };
+		B10DD3AC266DCDE41572C799 /* unk_compat.dat.gz */ = {isa = PBXFileReference; lastKnownFileType = archive.gzip; path = unk_compat.dat.gz; sourceTree = "<group>"; };
+		C6B47907C9132038065F216B /* YomiRubySafariExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = YomiRubySafariExtension.entitlements; sourceTree = "<group>"; };
+		CD0366947EAD6E1C0C833F71 /* YomiRubySafari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YomiRubySafari.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDB0DC2FBD700E21BCDA61E8 /* tid_pos.dat.gz */ = {isa = PBXFileReference; lastKnownFileType = archive.gzip; path = tid_pos.dat.gz; sourceTree = "<group>"; };
+		D969D901FD475ACA043FD686 /* unk.dat.gz */ = {isa = PBXFileReference; lastKnownFileType = archive.gzip; path = unk.dat.gz; sourceTree = "<group>"; };
+		DBA4F14C920CA23D37273582 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DC87853917CED0FBE6B730DF /* YomiRubySafari.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = YomiRubySafari.entitlements; sourceTree = "<group>"; };
+		E0C4BB7BB1CED246D61FB3B2 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		E8B1216B2C50D131D157EDCF /* unk_invoke.dat.gz */ = {isa = PBXFileReference; lastKnownFileType = archive.gzip; path = unk_invoke.dat.gz; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		012803453D509E6873A1F15D /* YomiRubySafariExtension */ = {
+			isa = PBXGroup;
+			children = (
+				DBA4F14C920CA23D37273582 /* Info.plist */,
+				6D75F580DED9047D23D34905 /* SafariWebExtensionHandler.swift */,
+				C6B47907C9132038065F216B /* YomiRubySafariExtension.entitlements */,
+			);
+			path = YomiRubySafariExtension;
+			sourceTree = "<group>";
+		};
+		01E35773255981EE7EFB7DF8 /* YomiRubySafari */ = {
+			isa = PBXGroup;
+			children = (
+				7BCB69A0E9AD4ADA40548FB9 /* ContentView.swift */,
+				383D05A3F6DD7AFBAC93F40F /* Info.plist */,
+				DC87853917CED0FBE6B730DF /* YomiRubySafari.entitlements */,
+				80CA972921B8F1FEDE705EE9 /* YomiRubySafariApp.swift */,
+			);
+			path = YomiRubySafari;
+			sourceTree = "<group>";
+		};
+		4A1A23F9B8EE02CA62333A4F /* dict */ = {
+			isa = PBXGroup;
+			children = (
+				0906C658ED6DCC7302CBC50F /* base.dat.gz */,
+				15B7565E62513AF49C8E017E /* cc.dat.gz */,
+				104B4E7DCEBF5869A8A5FA8A /* check.dat.gz */,
+				9276CF3E163730CC558CA544 /* tid_map.dat.gz */,
+				CDB0DC2FBD700E21BCDA61E8 /* tid_pos.dat.gz */,
+				6C7ABC2793BB39B05C76AC46 /* tid.dat.gz */,
+				A08423658A91F2EA594FFAE6 /* unk_char.dat.gz */,
+				B10DD3AC266DCDE41572C799 /* unk_compat.dat.gz */,
+				E8B1216B2C50D131D157EDCF /* unk_invoke.dat.gz */,
+				51E2A5F3D26017AD4D7F2751 /* unk_map.dat.gz */,
+				AA3CFA14926029505EC85F47 /* unk_pos.dat.gz */,
+				D969D901FD475ACA043FD686 /* unk.dat.gz */,
+			);
+			path = dict;
+			sourceTree = "<group>";
+		};
+		7BB1CE36BBA6EF7EA3B7B3F6 = {
+			isa = PBXGroup;
+			children = (
+				E018EC727599783BFAF2851F /* Resources */,
+				01E35773255981EE7EFB7DF8 /* YomiRubySafari */,
+				012803453D509E6873A1F15D /* YomiRubySafariExtension */,
+				EECFE8826C39F154A7A3BE30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E018EC727599783BFAF2851F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A068EEC18D58B874B8E52F79 /* background.js */,
+				7F1546380CF607BE382D473D /* content.js */,
+				7DAEDD8B735CFFD2E012D3A6 /* kuromoji.js */,
+				6BA48019733DC82EBE3753A5 /* local-dict.js */,
+				A1B61FC52435126FE34C6A07 /* local-dict.json */,
+				A2090EC41F175FC3CC38798E /* manifest.json */,
+				2A586E172D50161F008CD329 /* popup.css */,
+				E0C4BB7BB1CED246D61FB3B2 /* popup.html */,
+				3603EE661E85F7082C00154E /* popup.js */,
+				4A1A23F9B8EE02CA62333A4F /* dict */,
+			);
+			name = Resources;
+			path = YomiRubySafariExtension/Resources;
+			sourceTree = "<group>";
+		};
+		EECFE8826C39F154A7A3BE30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD0366947EAD6E1C0C833F71 /* YomiRubySafari.app */,
+				371BC7F9AE57130058554C15 /* YomiRubySafariExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		528DB3617DA09D7822ECD773 /* YomiRubySafariExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C9190403F2AEB7872397EC6 /* Build configuration list for PBXNativeTarget "YomiRubySafariExtension" */;
+			buildPhases = (
+				DA4007FADDD18DCA5794DFC7 /* Sources */,
+				F86E21FF75893CC75B53D3E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YomiRubySafariExtension;
+			packageProductDependencies = (
+			);
+			productName = YomiRubySafariExtension;
+			productReference = 371BC7F9AE57130058554C15 /* YomiRubySafariExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		D9CE2DAA33DF67940E5022B5 /* YomiRubySafari */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DCD286609F387D6325D76EC /* Build configuration list for PBXNativeTarget "YomiRubySafari" */;
+			buildPhases = (
+				E42017A5EC83967D50C73200 /* Sources */,
+				8C8F6016C845B4578AEB408F /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4408C14B384E05D227544279 /* PBXTargetDependency */,
+			);
+			name = YomiRubySafari;
+			packageProductDependencies = (
+			);
+			productName = YomiRubySafari;
+			productReference = CD0366947EAD6E1C0C833F71 /* YomiRubySafari.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0A8F509F2B130BDCB6C7D6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					528DB3617DA09D7822ECD773 = {
+						ProvisioningStyle = Automatic;
+					};
+					D9CE2DAA33DF67940E5022B5 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 23688CEF28F0F883C76D2E19 /* Build configuration list for PBXProject "YomiRubySafari" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 7BB1CE36BBA6EF7EA3B7B3F6;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EECFE8826C39F154A7A3BE30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9CE2DAA33DF67940E5022B5 /* YomiRubySafari */,
+				528DB3617DA09D7822ECD773 /* YomiRubySafariExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F86E21FF75893CC75B53D3E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01F96FEFDA25D3E440C7B54A /* background.js in Resources */,
+				0BB1103B17C5EC4C412EF78D /* base.dat.gz in Resources */,
+				1840B1DABBACF99FED2CFC36 /* cc.dat.gz in Resources */,
+				2713674BE91772626FCED75C /* check.dat.gz in Resources */,
+				0C439B24DB5C5C6C84CE10BF /* content.js in Resources */,
+				D182A1C8327827668CE4BC5D /* kuromoji.js in Resources */,
+				36417ECBEDB658EDBC734E25 /* local-dict.js in Resources */,
+				D19CEE51E922A134BECAA245 /* local-dict.json in Resources */,
+				A7C9E0617428B3202FF5E572 /* manifest.json in Resources */,
+				01AC4AD4B06E35A21344AD21 /* popup.css in Resources */,
+				D721E023DD7798BFCCA64A91 /* popup.html in Resources */,
+				A38D1AB2FB235EC1FD1600AD /* popup.js in Resources */,
+				F04A0E59070A4B8706A7502A /* tid.dat.gz in Resources */,
+				4E620891D8415F4085543502 /* tid_map.dat.gz in Resources */,
+				7094EA7D4EBF78109C65E61C /* tid_pos.dat.gz in Resources */,
+				39293EDB1BCB394CB47D9DAE /* unk.dat.gz in Resources */,
+				EF5976A6B08CF725EDA476D8 /* unk_char.dat.gz in Resources */,
+				2C5CB7356ED61A2BE903EC18 /* unk_compat.dat.gz in Resources */,
+				DEABC44F1B40120FF7188E09 /* unk_invoke.dat.gz in Resources */,
+				9CBB8FD6139DFE83B7337E74 /* unk_map.dat.gz in Resources */,
+				CA9C0D76F2C3E5EC8D749155 /* unk_pos.dat.gz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA4007FADDD18DCA5794DFC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31B832DB0F12C2CFC976ABF9 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E42017A5EC83967D50C73200 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA9BC677A1CC99E7EA97D52 /* ContentView.swift in Sources */,
+				BEAC6C11BF9433E6F6696A20 /* YomiRubySafariApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4408C14B384E05D227544279 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 528DB3617DA09D7822ECD773 /* YomiRubySafariExtension */;
+			targetProxy = B0407C9C0AB849C671961430 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00BB1DEC9968D52FD871D622 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = YomiRubySafariExtension/YomiRubySafariExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = YomiRubySafariExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.YomiRubySafari.Extension;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1AB50ACE74374FBC3E25FBA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3330BD165F6804BE598ECEE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C1A98D2851E7D50068D97A3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = YomiRubySafari/YomiRubySafari.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = YomiRubySafari/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.YomiRubySafari;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CCD06C9208B967493AE16748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = YomiRubySafari/YomiRubySafari.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = YomiRubySafari/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.YomiRubySafari;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD5E5C2169A185110CE1AD46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = YomiRubySafariExtension/YomiRubySafariExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = YomiRubySafariExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.YomiRubySafari.Extension;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23688CEF28F0F883C76D2E19 /* Build configuration list for PBXProject "YomiRubySafari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AB50ACE74374FBC3E25FBA8 /* Debug */,
+				3330BD165F6804BE598ECEE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5DCD286609F387D6325D76EC /* Build configuration list for PBXNativeTarget "YomiRubySafari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCD06C9208B967493AE16748 /* Debug */,
+				C1A98D2851E7D50068D97A3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7C9190403F2AEB7872397EC6 /* Build configuration list for PBXNativeTarget "YomiRubySafariExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD5E5C2169A185110CE1AD46 /* Debug */,
+				00BB1DEC9968D52FD871D622 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0A8F509F2B130BDCB6C7D6F /* Project object */;
+}

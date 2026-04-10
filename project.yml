@@ -1,0 +1,48 @@
+name: YomiRubySafari
+options:
+  minimumXcodeGenVersion: 2.40.0
+settings:
+  base:
+    SWIFT_VERSION: 5.0
+targets:
+  YomiRubySafari:
+    type: application
+    platform: iOS
+    deploymentTarget: "16.0"
+    sources:
+      - path: YomiRubySafari
+    entitlements:
+      path: YomiRubySafari/YomiRubySafari.entitlements
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.example.YomiRubySafari
+        CURRENT_PROJECT_VERSION: 1
+        MARKETING_VERSION: 1.0
+        GENERATE_INFOPLIST_FILE: NO
+        INFOPLIST_FILE: YomiRubySafari/Info.plist
+        CODE_SIGN_STYLE: Automatic
+    dependencies:
+      - target: YomiRubySafariExtension
+        embed: true
+
+  YomiRubySafariExtension:
+    type: app-extension
+    platform: iOS
+    deploymentTarget: "16.0"
+    sources:
+      - path: YomiRubySafariExtension
+        excludes:
+          - Resources
+      - path: YomiRubySafariExtension/Resources
+        buildPhase: resources
+    entitlements:
+      path: YomiRubySafariExtension/YomiRubySafariExtension.entitlements
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.example.YomiRubySafari.Extension
+        CURRENT_PROJECT_VERSION: 1
+        MARKETING_VERSION: 1.0
+        GENERATE_INFOPLIST_FILE: NO
+        INFOPLIST_FILE: YomiRubySafariExtension/Info.plist
+        CODE_SIGN_STYLE: Automatic
+        LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks"
